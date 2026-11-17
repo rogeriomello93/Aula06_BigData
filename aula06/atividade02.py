@@ -1,10 +1,30 @@
-for i in range(4):
-    valor_final = float(input('Digite o valor da compra: '))
-    if valor_final >= 200:
-        desconto = valor_final * .10
-        final = valor_final * 0.9
-        print(f'O valor do desconto é de R${desconto:.2f}')
-        print(f'O valor a ser pago é de R${final:.2f}')
-    else:
-        print(f'Você não teve desconto. O valor a ser pago é de R$ {valor_final}')
-    
+# digitar um valor e tem que aparecer o dobro, triplo e quadrado do numero
+
+# num = float(input('Digite um numero qualquer: '))
+# dobro = num * 2
+# triplo = num * 3
+# quadrado = num ** 2
+# print(f'O dobro do numero é {dobro}')
+# print(f'O triplo do numero é {triplo}')
+# print(f'O quadrado do numero é {quadrado}')
+
+
+
+# print(f'O dobro do numero é {numero*2}')
+# print(f'O triplo do numero é {numero*3}')
+# print(f'O quadrado do numero é {numero**2}')
+
+#--------------------------------------------------
+
+# Estrutura de Repetição
+# Laço For
+
+for i in range (3):
+    print(f'\nRODADA {i + 1}')
+    num = float(input('Digite um numero qualquer: '))
+    dobro = num * 2
+    triplo = num * 3
+    quadrado = num ** 2
+    print(f'O dobro do numero é {dobro}')
+    print(f'O triplo do numero é {triplo}')
+    print(f'O quadrado do numero é {quadrado}')
